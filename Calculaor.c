@@ -16,16 +16,15 @@ int main() {        //main function
     case '-': //choice for subtraction
       printf("%.1lf - %.1lf = %.1lf", first, second, first - second);
       break;  //breaking if this choice is made
-    case '*':
+    case '*'://choice for multiplication
       printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
-      break;
-    case '/':
+      break;//breaking if this choice is made
+    case '/': //choice for division
       printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
-      break;
+      break;  //breaking if this choice is made
     // operator doesn't match any case constant
     default:
       printf("Error! operator is not correct");
-  }
-
+  }//last condition executes if you make a mistake to choose the operantor or an invalid operator.
   return 0;
 }
