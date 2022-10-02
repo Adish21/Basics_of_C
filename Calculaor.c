@@ -10,12 +10,12 @@ int main() {        //main function
   scanf("%lf %lf", &first, &second);
     //Apply switch case for the calculator
   switch (op) {
-    case '+':
+    case '+':     //choice for addition 
       printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
-      break;
-    case '-':
+      break; //breaking if this choice is made
+    case '-': //choice for subtraction
       printf("%.1lf - %.1lf = %.1lf", first, second, first - second);
-      break;
+      break;  //breaking if this choice is made
     case '*':
       printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
       break;
